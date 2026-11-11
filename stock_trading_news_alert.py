@@ -7,10 +7,10 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-twilio_sid = "ACefb8ff21992d2206910ec4e272392f4f"
-twilio_autho_token = "430a030da14d1611181ebf940365f53e"
+twilio_sid = "ACefb8ff21992d2####"
+twilio_autho_token = "430a030da14d####"
 
-stock_api = "WNDUWBDO0Q7O09O0"
+stock_api = "WNDUWB####"
 parameters = {
     "function": "TIME_SERIES_DAILY",
     "symbol": STOCK_NAME,
@@ -38,7 +38,7 @@ percent_diff = (pos_difference/closing_price1) * 100
 if percent_diff > 5:
     print("Get news")
 
-news_api = "d4471affdf894574b08f0d8d8432ec60"
+news_api = "d4471affdf89####"
 param_news = {
     "q": COMPANY_NAME,
     "apikey": news_api,
